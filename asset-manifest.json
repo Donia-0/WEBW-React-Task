@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/WEBW-React-Task/static/css/main.bcd61c77.css",
+    "main.css": "/WEBW-React-Task/static/css/main.58d303b4.css",
     "main.js": "/WEBW-React-Task/static/js/main.6b3002ee.js",
     "static/media/Sans titre-1.png": "/WEBW-React-Task/static/media/Sans titre-1.1e12f2f5c692125623df.png",
     "static/media/NoPath.png": "/WEBW-React-Task/static/media/NoPath.384371ba29766c3f1f56.png",
     "static/media/shutterstock_459775861 (1).png": "/WEBW-React-Task/static/media/shutterstock_459775861 (1).6c71168fa21ea0f72b8a.png",
     "index.html": "/WEBW-React-Task/index.html",
-    "main.bcd61c77.css.map": "/WEBW-React-Task/static/css/main.bcd61c77.css.map",
+    "main.58d303b4.css.map": "/WEBW-React-Task/static/css/main.58d303b4.css.map",
     "main.6b3002ee.js.map": "/WEBW-React-Task/static/js/main.6b3002ee.js.map"
   },
   "entrypoints": [
-    "static/css/main.bcd61c77.css",
+    "static/css/main.58d303b4.css",
     "static/js/main.6b3002ee.js"
   ]
 }
