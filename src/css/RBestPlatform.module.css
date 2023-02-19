@@ -39,6 +39,10 @@
     .bestplatform .text h1::before {
         top: 46px !important;
     }
+
+    .bestplatform .dashboard img {
+        width: 80vh !important;
+    }
 }
 
 @media screen and (max-width: 877px) {
@@ -54,6 +58,12 @@
 
     .bestplatform .text {
         margin-left: 10% !important;
+    }
+}
+
+@media screen and (max-width: 301px) {
+    .bestplatform .dashboard img {
+        width: 100% !important;
     }
 }
 
