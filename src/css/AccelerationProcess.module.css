@@ -44,7 +44,18 @@
         width: 90% !important;
         margin-top: 180px !important;
     }
+
+    .acceleration h1 {
+        font-size: 35px !important;
+    }
 }
+
+@media screen and (max-width: 290px) {
+    .acceleration h1 {
+        font-size: 30px !important;
+    }
+}
+
 
 
 

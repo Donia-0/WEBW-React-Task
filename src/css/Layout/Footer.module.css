@@ -17,6 +17,10 @@
     .footer .signup {
         margin-top: 5% !important;
     }
+
+    .footer input {
+        width: 400px !important;
+    }
 }
 
 
@@ -26,7 +30,7 @@
     }
 
     .footer input {
-        width: 400px !important;
+        width: 350px !important;
     }
 
 }
