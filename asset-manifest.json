@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/WEBW-React-Task/static/css/main.ad0d1213.css",
-    "main.js": "/WEBW-React-Task/static/js/main.28bd9d24.js",
+    "main.css": "/WEBW-React-Task/static/css/main.df3e8b40.css",
+    "main.js": "/WEBW-React-Task/static/js/main.6b3002ee.js",
     "static/media/Sans titre-1.png": "/WEBW-React-Task/static/media/Sans titre-1.1e12f2f5c692125623df.png",
     "static/media/NoPath.png": "/WEBW-React-Task/static/media/NoPath.384371ba29766c3f1f56.png",
     "static/media/shutterstock_459775861 (1).png": "/WEBW-React-Task/static/media/shutterstock_459775861 (1).6c71168fa21ea0f72b8a.png",
     "index.html": "/WEBW-React-Task/index.html",
-    "main.ad0d1213.css.map": "/WEBW-React-Task/static/css/main.ad0d1213.css.map",
-    "main.28bd9d24.js.map": "/WEBW-React-Task/static/js/main.28bd9d24.js.map"
+    "main.df3e8b40.css.map": "/WEBW-React-Task/static/css/main.df3e8b40.css.map",
+    "main.6b3002ee.js.map": "/WEBW-React-Task/static/js/main.6b3002ee.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad0d1213.css",
-    "static/js/main.28bd9d24.js"
+    "static/css/main.df3e8b40.css",
+    "static/js/main.6b3002ee.js"
   ]
 }
