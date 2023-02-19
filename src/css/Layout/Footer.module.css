@@ -19,9 +19,21 @@
     }
 }
 
+
+@media screen and (max-width: 300) {
+    .footer {
+        height: 80vh !important;
+    }
+
+    .footer input {
+        width: 400px !important;
+    }
+
+}
+
 /* ///////////////////////////////////////// */
 .footer {
-    background-color: #333333;
+    background-color: var(--second-color);
     height: 279px;
     color: #FFFFFF;
     bottom: 0;
