@@ -17,20 +17,12 @@
     .footer .signup {
         margin-top: 5% !important;
     }
-
-    .footer input {
-        width: 400px !important;
-    }
 }
 
 
 @media screen and (max-width: 301) {
     .footer {
         height: 85vh !important;
-    }
-
-    .footer input {
-        width: 350px !important;
     }
 
 }
@@ -95,7 +87,7 @@ button {
 }
 
 .footer input {
-    width: 479px;
+    /* width: 479px; */
 }
 
 .footer button {
