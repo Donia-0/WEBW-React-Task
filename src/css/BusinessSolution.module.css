@@ -1,0 +1,140 @@
+/* Responsive */
+@media screen and (max-width: 992px) {
+    .business_sol .text {
+        margin-bottom: 15% !important;
+    }
+
+    .icons {
+        left: 0 !important;
+    }
+
+    .icons .icon_container {
+        width: 15% !important;
+    }
+
+}
+
+
+@media screen and (max-width: 576px) {
+    .icons {
+        text-align: center !important;
+    }
+
+    .icons .icon_container {
+        width: 12% !important;
+        margin-left: 42% !important;
+
+    }
+
+    .icons p::before {
+        left: 41% !important;
+    }
+}
+
+@media screen and (max-width: 512px) {
+    .icons p::before {
+        left: 40% !important;
+    }
+}
+
+@media screen and (max-width: 575px) and (min-width: 402px) {
+    .icons .icon_container {
+        width: 14% !important;
+    }
+}
+
+@media screen and (max-width: 483px) {
+    .icons p::before {
+        left: 39% !important;
+    }
+}
+
+@media screen and (max-width: 389px) {
+    .icons p::before {
+        left: 36% !important;
+    }
+}
+
+
+/*--------------left side----------------------- */
+.business_sol {
+    width: 85%;
+    margin: auto;
+    position: relative;
+    top: 40px;
+    margin-bottom: 150px;
+}
+
+.business_sol .text h1 {
+    color: var(--second-color);
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.business_sol .text h1::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    width: 90px;
+    border: solid 2px var(--main-color);
+}
+
+.business_sol .text p {
+    color: var(--p-color);
+    font-size: 14px;
+}
+
+.business_sol .text span {
+    color: var(--main-color);
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.business_sol .text .icon {
+    margin-left: 20px;
+}
+
+/* /////////////////////////////////////////////// */
+
+/* ---------------------right side------------------------ */
+.icons {
+    position: relative;
+    left: 10%;
+}
+
+.icons .icon_container {
+    width: 20%;
+    border-radius: 50%;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.icons .icon {
+    color: #FFFFFF;
+    font-size: 25px;
+}
+
+.icons header {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: var(--second-color);
+}
+
+.icons p {
+    color: var(--p-color);
+    font-size: 14px;
+
+}
+
+.icons p::before {
+    content: "";
+    position: absolute;
+    margin-top: -10px;
+    width: 90px;
+    border: solid 2px var(--main-color);
+}

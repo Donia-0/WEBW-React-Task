@@ -1,0 +1,94 @@
+/* Responsive  */
+@media screen and (max-width: 768px) {
+    .footer {
+        height: 65vh !important;
+    }
+
+    .footer .signup {
+        margin-top: 15% !important;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .footer {
+        height: 75vh !important;
+    }
+
+    .footer .signup {
+        margin-top: 5% !important;
+    }
+}
+
+/* ///////////////////////////////////////// */
+.footer {
+    background-color: #333333;
+    height: 279px;
+    color: #FFFFFF;
+    bottom: 0;
+
+}
+
+.footer .footer_elements {
+    width: 80%;
+    margin: auto;
+
+}
+
+.footer .footer_elements .study {
+    position: relative;
+    top: 30%;
+}
+
+.footer .footer_elements .services,
+.signup {
+    position: relative;
+    top: 45%;
+}
+
+.footer .study header {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: serif;
+    font-style: unset;
+}
+
+.footer .study p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer .services header,
+.signup header {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer .services p {
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.footer .signup .mail {
+    display: flex;
+}
+
+.footer .signup .mail input,
+button {
+    border-radius: 25px;
+}
+
+.footer input {
+    width: 479px;
+}
+
+.footer button {
+    width: 205px;
+    margin-left: -43%;
+    border: none;
+    background-color: var(--main-color);
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+
+}

@@ -1,0 +1,222 @@
+/* Responsive */
+@media screen and (max-width: 1240px) and (min-width: 999px) {
+    .landing .content {
+        width: 80% !important;
+    }
+
+    .landing .welcome_text {
+        top: 17% !important;
+    }
+
+    .landing .dashboard img {
+        width: 48vw !important;
+    }
+
+    .landing .platforms {
+        flex-wrap: wrap !important;
+    }
+}
+
+@media screen and (max-width:999px) and (min-width:849px) {
+    .landing .content {
+        width: 80% !important;
+    }
+
+    .landing .welcome_text {
+        top: 13% !important;
+    }
+
+    .landing .dashboard img {
+        width: 45vw !important;
+    }
+
+    .landing .platforms {
+        flex-wrap: wrap !important;
+    }
+}
+
+@media screen and (max-width:849px) and (min-width:769px) {
+    .landing .content {
+        width: 90% !important;
+    }
+
+    .landing .welcome_text {
+        top: 15% !important;
+    }
+
+    .landing .dashboard img {
+        width: 48vw !important;
+    }
+
+    .landing .platforms {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width:769px) and (min-width:575px) {
+    .landing {
+        background-position: initial !important;
+        background-size: auto !important;
+    }
+
+    .landing .content {
+        width: 99% !important;
+    }
+
+    .landing .welcome_text {
+        top: 25% !important;
+    }
+
+    .landing .welcome_text h1 {
+        font-size: 43px !important;
+    }
+
+    .landing .dashboard img {
+        /* display: none; */
+        width: 54vw !important;
+    }
+
+    .landing .platforms {
+        flex-wrap: wrap;
+        top: 30% !important;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+
+
+    .landing .welcome_text {
+        width: 80% !important;
+        margin: auto !important;
+        top: 55% !important;
+    }
+
+    .landing .dashboard img {
+        display: none;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .landing {
+        background-position: initial !important;
+        background-size: auto !important;
+    }
+
+    .landing .content {
+        width: 65% !important;
+    }
+
+    .landing .welcome_text {
+        top: 50% !important;
+    }
+
+    .landing .welcome_text h1 {
+        font-size: 43px !important;
+    }
+
+    .landing .dashboard img {
+        display: none;
+    }
+
+    .landing .platforms {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width:550px) {
+    .landing .content {
+        width: 100% !important;
+    }
+
+    .landing .platforms {
+        top: 33% !important;
+    }
+}
+
+@media screen and (max-width:512px) {
+    .landing .welcome_text {
+        top: 50% !important;
+    }
+
+    .landing .content {
+        width: 90% !important;
+    }
+
+    .landing .platforms {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width:381px) {
+    .landing .welcome_text {
+        top: 43% !important
+    }
+
+    .landing .content {
+        width: 95% !important;
+    }
+}
+
+
+
+/* //////////////////////////////////////////////////////// */
+
+
+.landing {
+    background-image: url("../Images/Sans\ titre-1.png");
+    background-size: cover;
+    background-position: center;
+    height: 110vh;
+    margin-bottom: 100px;
+
+}
+
+.landing .content {
+    width: 60%;
+    margin: auto;
+}
+
+.landing .welcome_text {
+    position: relative;
+    top: 25%;
+    color: #FFFFFF;
+}
+
+.landing .welcome_text header {
+    font-size: 20px;
+}
+
+.landing .welcome_text h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.landing .welcome_text p {
+    font-size: 15px;
+}
+
+.landing .welcome_text button {
+    width: 35%;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    background-color: #FFFFFF;
+    color: var(--main-color);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.landing .dashboard img {
+    width: 45vw;
+    height: 70vh;
+}
+
+.landing .platforms {
+    position: relative;
+    top: 15%;
+    display: flex;
+    justify-content: center;
+}

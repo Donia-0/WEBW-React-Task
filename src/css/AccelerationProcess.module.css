@@ -1,0 +1,122 @@
+/* Responsive */
+@media screen and (max-width: 999px) {
+    .acceleration {
+        width: 75% !important;
+    }
+
+    .acceleration .process {
+        top: 5% !important;
+    }
+
+    .acceleration .company_word {
+        width: 40% !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .acceleration .market_research {
+        left: 0 !important;
+        top: 20% !important;
+    }
+
+    .acceleration .company_word {
+        margin-top: 120px !important;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .acceleration .company_word {
+        width: 55% !important;
+    }
+}
+
+@media screen and (max-width: 435px) {
+
+    .acceleration .company_word {
+        width: 65% !important;
+        margin-top: 175px !important;
+    }
+}
+
+@media screen and (max-width: 350px) {
+
+    .acceleration .company_word {
+        width: 90% !important;
+        margin-top: 180px !important;
+    }
+}
+
+
+
+
+/* ////////////////////////////////////////// */
+.acceleration {
+    width: 70%;
+    margin: auto;
+}
+
+.acceleration .process {
+    position: relative;
+    top: 20%;
+}
+
+.acceleration h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--second-color);
+}
+
+.acceleration p {
+    color: var(--p-color);
+}
+
+.acceleration button {
+    width: 35%;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    background-image: linear-gradient(to right, rgba(255, 96, 87, 100%), rgba(124, 28, 128, 66%));
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.acceleration .market_research {
+    position: relative;
+    left: 20%;
+}
+
+.acceleration .market_research .header {
+    display: flex;
+    align-items: center;
+}
+
+.acceleration .market_research .header h2 {
+    color: var(--second-color);
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 25px;
+}
+
+.acceleration .market_research .header .icon {
+    background-color: #FF6057;
+    color: #FFFFFF;
+    border-radius: 60%;
+    padding: 15px;
+    width: 3%;
+}
+
+.acceleration .market_research p {
+    padding-left: 25px;
+    margin: 20px;
+}
+
+.acceleration .company_word {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    width: 30%;
+    margin: auto;
+    margin-top: 70px;
+}

@@ -1,0 +1,60 @@
+/* Responsive */
+
+@media screen and (max-width: 992px) {
+    nav .about_us {
+        display: none !important;
+    }
+}
+
+
+nav {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .logo {
+    font-size: 40px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+nav .logo span {
+    font-size: 35px;
+}
+
+nav .logo span::before {
+    content: "";
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 6px;
+    width: 15px;
+    border: solid 1px #FFFFFF;
+
+}
+
+nav .logo:hover {
+    color: #FFFFFF;
+}
+
+nav .nav_item {
+    padding-left: 18px;
+}
+
+nav .nav_item a {
+    color: #FFFFFF;
+}
+
+nav .about_us {
+    width: 15%;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    background-image: linear-gradient(to right, rgba(255, 96, 87, 100%), rgba(124, 28, 128, 66%));
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    right: 10%;
+}
