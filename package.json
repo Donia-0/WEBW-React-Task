@@ -1,4 +1,5 @@
 {
+  "homepae": "https://donia-0.github.io/WEBW-React-Task/",
   "name": "stevdy-task",
   "version": "0.1.0",
   "private": true,
@@ -12,6 +13,7 @@
     "bootstrap": "^5.2.3",
     "browser-router": "^0.2.0",
     "get-google-fonts": "^1.2.2",
+    "gh-pages": "^5.0.0",
     "jquery": "^3.6.3",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.2",
@@ -27,6 +29,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeployed": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

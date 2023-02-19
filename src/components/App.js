@@ -14,7 +14,7 @@ import Footer from './Layout/Footer';
 
 function App() {
   return (
-            <div>
+          <div>
             <LandingSection/>
             <BusinessSolution/>
             <LBestPlatform/>
@@ -23,7 +23,7 @@ function App() {
             <AccelerationProcess/>
             <LastSection/>
             <Footer/>
-            </div>
+          </div>
   );
 }
 
