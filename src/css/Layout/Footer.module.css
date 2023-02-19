@@ -17,12 +17,22 @@
     .footer .signup {
         margin-top: 5% !important;
     }
+
+    .footer input {
+        position: relative;
+        right: 8%;
+    }
 }
 
 
 @media screen and (max-width: 301) {
     .footer {
         height: 85vh !important;
+    }
+
+    .footer input {
+        position: relative;
+        right: 8%;
     }
 
 }
