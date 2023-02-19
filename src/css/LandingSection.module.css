@@ -148,6 +148,10 @@
     .landing .platforms {
         display: none !important;
     }
+
+    .landing .welcome_text button {
+        width: 45% !important;
+    }
 }
 
 @media screen and (max-width:381px) {
@@ -157,6 +161,10 @@
 
     .landing .content {
         width: 95% !important;
+    }
+
+    .landing .welcome_text button {
+        width: 45% !important;
     }
 }
 
