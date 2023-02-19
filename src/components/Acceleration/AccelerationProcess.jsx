@@ -1,6 +1,6 @@
 import React from "react";
 import style from "../../css/AccelerationProcess.module.css"
-import { fa1, faRightLong } from '@fortawesome/free-solid-svg-icons';
+import { fa1 } from '@fortawesome/free-solid-svg-icons';
 import Repeated from "./Repeated";
 
 

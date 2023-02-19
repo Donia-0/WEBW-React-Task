@@ -11,7 +11,7 @@ const LBestPlatform = () => {
                 <div className="row" style={{ margin: 0 }}>
                     <div className="col-lg-6 col-md-12 col-sm-12">
                         <div className={style.dashboard}>
-                            <img src={report} />
+                            <img src={report} alt="report" />
                         </div>
                     </div>
                     <div className="col-lg-6 col-md-12 col-sm-12">

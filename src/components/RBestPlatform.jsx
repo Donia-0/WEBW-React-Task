@@ -19,7 +19,7 @@ const RBestPlatform = () => {
                     </div>
                     <div className="col-lg-6 col-md-12 col-sm-12">
                         <div className={style.dashboard}>
-                            <img src={report} style={{ width: "47vw", height: "70vh" }} />
+                            <img src={report} style={{ width: "47vw", height: "70vh" }} alt="report" />
                         </div>
                     </div>
                 </div>

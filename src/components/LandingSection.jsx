@@ -13,11 +13,11 @@ import bumble from "../Images/client-5.png"
 
 const LandingSection = () => {
     const images = [
-        <img src={shopify} />,
-        <img src={nearpod} />,
-        <img src={bench} />,
-        <img src={forbes} />,
-        <img src={bumble} />,
+        <img src={shopify} alt="platform" />,
+        <img src={nearpod} alt="platform" />,
+        <img src={bench} alt="platform" />,
+        <img src={forbes} alt="platform" />,
+        <img src={bumble} alt="platform" />,
     ]
 
 

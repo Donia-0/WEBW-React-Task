@@ -1,6 +1,5 @@
 import React from "react";
 import style from "../css/PlatformOverview.module.css"
-import report from "../Images/NoPath.png"
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper";
 import "swiper/css";
