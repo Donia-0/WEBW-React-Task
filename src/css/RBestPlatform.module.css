@@ -9,6 +9,10 @@
         width: 22vw !important;
     }
 
+    .bestplatform .dashboard img {
+        width: 80vh !important;
+    }
+
 }
 
 @media screen and (max-width: 1046px) {
@@ -61,6 +65,11 @@
 .bestplatform .dashboard {
     position: relative;
     bottom: 20%;
+}
+
+.bestplatform .dashboard img {
+    width: 47vw;
+    height: 70vh;
 }
 
 .bestplatform .dashboard::before {
