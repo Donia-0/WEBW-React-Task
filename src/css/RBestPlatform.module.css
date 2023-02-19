@@ -1,7 +1,7 @@
 /* Responsive */
-@media screen and (max-width: 1244px) {
+@media screen and (max-width: 1245px) {
     .bestplatform {
-        width: 70% !important;
+        width: 80% !important;
     }
 
     .bestplatform .dashboard::before {
@@ -10,7 +10,11 @@
     }
 
     .bestplatform .dashboard img {
-        width: 80vh !important;
+        width: 60vh !important;
+    }
+
+    .bestplatform .dashboard::before {
+        display: none;
     }
 
 }
