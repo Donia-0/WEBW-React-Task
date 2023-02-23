@@ -84,6 +84,10 @@
 }
 
 @media screen and (max-width: 389px) {
+    .icons p::before {
+        margin-left: 60px !important;
+    }
+
     .icons .icon_container {
         width: 20% !important;
     }
