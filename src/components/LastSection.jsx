@@ -49,32 +49,21 @@ const LastSection = () => {
                     </div>
                 </div>
             </div>
-            {/* ---------------------------------------------------- */}
+            {/* -------------------------------------------------------------------------- */}
             <div className="row" style={{ margin: "0" }}>
                 <div className="col-lg-6 col-md-12 col-sm-12">
                     {/* ----------------------swiper---------------------- */}
                     <Swiper slidesPerView={1}
                         spaceBetween={70}
                         loop={true}
-                        pagination={{ clickable: true, }}
+                        pagination={{
+                            clickable: true,
+                        }}
                         modules={[Pagination, Navigation]}
                         className={style.swiper}
                     >
-                        {/* -----------------------slides---------------------- */}
-                        <SwiperSlide className={style.swiper_slide}>
-                            {/* <img src={swiperimg} /> */}
-                            <div className={style.swiper_text}>
-                                <h1>Florrie Jacobs</h1>
-                                <span>CEO of Company</span>
-                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat</p>
-                                <div className={style.icons} style={{ display: "flex" }}>
-                                    {/* get icons */}
-                                    {icons.map((staricon, index) => (
-                                        <div key={index} style={{ color: "#CB48F9", paddingLeft: "10px" }}>{staricon}</div>
-                                    ))}
-                                </div>
-                            </div>
-                        </SwiperSlide>
+                        {/* -------------------------slides---------------------- */}
+                        {/* -------------slide 1------------------------- */}
                         <SwiperSlide className={style.swiper_slide}>
                             <div className={style.swiper_text}>
                                 <h1>Florrie Jacobs</h1>
@@ -88,6 +77,8 @@ const LastSection = () => {
                                 </div>
                             </div>
                         </SwiperSlide>
+                        {/* -------------------------------------------------- */}
+                        {/* ------------------------------slide 2-------------------------- */}
                         <SwiperSlide className={style.swiper_slide}>
                             <div className={style.swiper_text}>
                                 <h1>Florrie Jacobs</h1>
@@ -101,6 +92,22 @@ const LastSection = () => {
                                 </div>
                             </div>
                         </SwiperSlide>
+                        {/* -------------------------------------------------- */}
+                        {/* ---------------------------slide 3--------------------------------- */}
+                        <SwiperSlide className={style.swiper_slide}>
+                            <div className={style.swiper_text}>
+                                <h1>Florrie Jacobs</h1>
+                                <span>CEO of Company</span>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat</p>
+                                <div className={style.icons} style={{ display: "flex" }}>
+                                    {/* get icons */}
+                                    {icons.map((staricon, index) => (
+                                        <div key={index} style={{ color: "#CB48F9", paddingLeft: "10px" }}>{staricon}</div>
+                                    ))}
+                                </div>
+                            </div>
+                        </SwiperSlide>
+                        {/* ------------------------------------------------- */}
                     </Swiper>
                     {/* ------------------------end swiper---------------------- */}
                 </div>

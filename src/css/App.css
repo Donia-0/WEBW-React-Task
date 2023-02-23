@@ -7,11 +7,16 @@
 * {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    /* border: solid 1px red; */
 
 }
 
-
+/* swiper pagination  global access */
 .swiper .swiper-pagination-bullet-active {
     background-color: var(--main-color) !important;
+
+}
+
+.swiper .swiper-pagination {
+    position: absolute;
+    bottom: -40px !important;
 }

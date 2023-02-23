@@ -22,7 +22,6 @@ const Footer = () => {
                             {/* ---------------call footer elements------------- */}
                             <FooterElements
                                 Header="Nos services"
-                            // Text="Avis clients Mentions légales Plan du site Blog d’Idéematic Le dictionnaire du digital ‹ Notre boutique /›"
                             />
                             <ul>
                                 <li>Avis clients</li>

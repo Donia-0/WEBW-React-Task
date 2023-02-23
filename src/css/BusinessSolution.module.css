@@ -14,7 +14,6 @@
 
 }
 
-
 @media screen and (max-width: 600px) {
     .icons {
         text-align: center !important;
@@ -91,7 +90,7 @@
 }
 
 
-/*--------------left side----------------------- */
+/*-------------------------left side----------------------------- */
 .business_sol {
     width: 65%;
     margin: auto;

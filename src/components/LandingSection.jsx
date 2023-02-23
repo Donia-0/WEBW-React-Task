@@ -48,7 +48,6 @@ const LandingSection = () => {
                     <div key={index}>{image}</div>
                 ))}
             </div>
-
         </div>
     )
 }

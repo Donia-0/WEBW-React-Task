@@ -3,6 +3,10 @@
     .counter_section {
         width: 80% !important;
     }
+
+    .swiper .swiper_text {
+        left: 30% !important;
+    }
 }
 
 @media screen and (max-width: 1046px) {
@@ -93,7 +97,9 @@
     }
 }
 
-/* ////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////// */
+
+
 .counter_section {
     width: 70%;
     margin: auto;
@@ -151,6 +157,7 @@
 
 }
 
+/* start swiper */
 
 .swiper {
     width: 100%;
@@ -159,7 +166,8 @@
     top: 15%;
     box-shadow: 5px 5px 20px 3px rgb(0 0 0 / 11%);
     padding: 35px;
-    /* right: 25px; */
+    overflow-x: clip !important;
+    overflow-y: visible !important;
 }
 
 .swiper_slide {
@@ -167,9 +175,6 @@
     background-image: url(../Images/shutterstock_459775861\ \(1\).png);
     background-repeat: no-repeat;
     background-position: left;
-    /* slide text */
-
-
 }
 
 .swiper_slide .swiper_text {
@@ -181,7 +186,8 @@
 }
 
 .swiper_slide .swiper_text h1 {
-    font-size: 30px;
+    font-size: 24px;
+    font-weight: 600;
     color: var(--second-color);
 }
 

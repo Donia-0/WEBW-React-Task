@@ -45,7 +45,6 @@
     }
 }
 
-@media screen and (max-width: 768px) {}
 
 @media screen and (max-width: 576px) {
 
@@ -53,17 +52,17 @@
     .footer .signup {
         margin-top: 5% !important;
     }
-
-    /* .footer input {
-        position: relative;
-        right: 8%;
-    } */
 }
 
 
 @media screen and (max-width: 301) {
     .footer {
         height: 85vh !important;
+    }
+
+    .footer .mail {
+        position: relative !important;
+        right: 8% !important;
     }
 
     .footer input {
@@ -73,7 +72,9 @@
 
 }
 
-/* ///////////////////////////////////////// */
+/* ////////////////////////////////////////////////////// */
+
+
 .footer {
     background-color: var(--second-color);
     height: 50vh;
@@ -108,7 +109,7 @@
 
 .footer .footer_elements .signup {
     position: relative;
-    top: 45%;
+    top: 43%;
 }
 
 .footer .study header {
@@ -146,13 +147,10 @@ button {
 
 .footer input {
     width: 479px;
-    /* height: 50px; */
-    /* width: 100%; */
 }
 
 .footer button {
     width: 205px;
-    /* height: 50px; */
     margin-left: -43%;
     border: none;
     background-color: var(--main-color);
