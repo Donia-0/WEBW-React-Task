@@ -55,6 +55,8 @@
 .swiper {
     width: 80vw;
     height: 95vh;
+    overflow-x: clip !important;
+    overflow-y: visible !important;
 }
 
 .swiper_slide {
