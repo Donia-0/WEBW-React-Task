@@ -85,11 +85,17 @@
     }
 }
 
-@media screen and (max-width: 301px) {
+@media screen and (max-width: 389px) {
     .bestplatform .dashboard img {
         width: 100% !important;
     }
+
+    .bestplatform .dashboard {
+        left: 0 !important;
+    }
 }
+
+
 
 
 

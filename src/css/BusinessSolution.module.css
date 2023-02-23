@@ -9,49 +9,84 @@
     }
 
     .icons .icon_container {
-        width: 15% !important;
+        width: 18% !important;
     }
 
 }
 
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
     .icons {
         text-align: center !important;
     }
 
     .icons .icon_container {
-        width: 12% !important;
+        width: 27% !important;
         margin-left: 42% !important;
 
     }
 
+    .business_sol .content {
+        margin-left: 30px !important;
+    }
+
     .icons p::before {
-        left: 41% !important;
+        margin-left: 32px !important;
     }
 }
 
-@media screen and (max-width: 512px) {
+@media screen and (max-width: 575px) {
+    .business_sol .content {
+        margin-left: 0 !important;
+    }
+
     .icons p::before {
-        left: 40% !important;
+        margin-left: 135px !important;
+    }
+
+}
+
+@media screen and (max-width: 546px) {
+    .business_sol .content {
+        margin-left: 0 !important;
+    }
+
+    .icons p::before {
+        margin-left: 100px !important;
+    }
+
+}
+
+@media screen and (max-width: 513px) {
+    .icons p::before {
+        margin-left: 95px !important;
     }
 }
 
-@media screen and (max-width: 575px) and (min-width: 402px) {
-    .icons .icon_container {
-        width: 14% !important;
-    }
-}
 
 @media screen and (max-width: 483px) {
     .icons p::before {
-        left: 39% !important;
+        margin-left: 100px !important;
+    }
+
+    .icons .icon_container {
+        width: 18% !important;
+    }
+}
+
+@media screen and (max-width: 421px) {
+    .icons p::before {
+        margin-left: 58px !important;
+    }
+
+    .icons .icon_container {
+        width: 18% !important;
     }
 }
 
 @media screen and (max-width: 389px) {
-    .icons p::before {
-        left: 36% !important;
+    .icons .icon_container {
+        width: 20% !important;
     }
 }
 

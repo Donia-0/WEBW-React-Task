@@ -5,7 +5,7 @@ import { HighQuality } from '@mui/icons-material';
 
 
 const RepeatedComponent = ({ icon, Header, Text, background }) => {
-    return (<div>
+    return (<div className={style.content}>
         {/* <div className={style.icon_container} style={{ backgroundColor: ` ${background} ` }}><FontAwesomeIcon icon={icon} className={style.icon} /></div> */}
         <header>{Header}</header>
         <p>{Text}</p>

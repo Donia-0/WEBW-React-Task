@@ -17,9 +17,21 @@
         display: none;
     }
 
+    .bestplatform .text {
+        width: 95% !important;
+    }
+
 }
 
 @media screen and (max-width: 1046px) {
+    .bestplatform {
+        overflow: visible !important;
+    }
+
+    .bestplatform .content {
+        top: 0 !important;
+    }
+
     .bestplatform .dashboard::before {
         display: none;
     }
@@ -30,6 +42,7 @@
 
     .bestplatform .text {
         margin-top: 15% !important;
+        width: 95% !important;
     }
 
     .bestplatform .text h1 {
@@ -41,17 +54,34 @@
     }
 
     .bestplatform .dashboard img {
-        width: 80vh !important;
+        width: 100% !important;
     }
 }
 
 @media screen and (max-width: 877px) {
+    .bestplatform {
+        overflow: visible !important;
+    }
+
+    .bestplatform .content {
+        top: 0 !important;
+    }
+
     .bestplatform {
         width: 95% !important;
     }
 }
 
 @media screen and (max-width: 768px) {
+    .bestplatform {
+        overflow: visible !important;
+        height: 140vh !important;
+    }
+
+    .bestplatform .content {
+        top: 0 !important;
+    }
+
     .bestplatform .dashboard img {
         width: 90% !important;
     }
@@ -61,7 +91,32 @@
     }
 }
 
+@media screen and (max-width: 389px) {
+    .bestplatform {
+        overflow: visible !important;
+        height: 160vh !important;
+    }
+
+
+    .bestplatform .dashboard img {
+        width: 100% !important;
+    }
+
+    .bestplatform .dashboard {
+        left: 0 !important;
+    }
+}
+
 @media screen and (max-width: 301px) {
+    .bestplatform {
+        overflow: visible !important;
+        height: 160vh !important;
+    }
+
+    .bestplatform .content {
+        top: 0 !important;
+    }
+
     .bestplatform .dashboard img {
         width: 100% !important;
     }
