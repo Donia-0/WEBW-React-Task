@@ -7,6 +7,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
+import swiperimg from "../Images/shutterstock_459775861\ \(1\).png"
 
 
 
@@ -61,6 +62,7 @@ const LastSection = () => {
                     >
                         {/* -----------------------slides---------------------- */}
                         <SwiperSlide className={style.swiper_slide}>
+                            {/* <img src={swiperimg} /> */}
                             <div className={style.swiper_text}>
                                 <h1>Florrie Jacobs</h1>
                                 <span>CEO of Company</span>

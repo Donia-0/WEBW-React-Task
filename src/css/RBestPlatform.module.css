@@ -69,16 +69,24 @@
 
 /* ////////////////////////////////////// */
 .bestplatform {
-    width: 65%;
+    width: 100%;
     margin: auto;
     position: relative;
     top: 40px;
     margin-bottom: 100px;
+    overflow: hidden;
+    height: 120vh;
+}
+
+.bestplatform .content {
+    position: relative;
+    top: 28%;
 }
 
 .bestplatform .dashboard {
     position: relative;
     bottom: 20%;
+
 }
 
 .bestplatform .dashboard img {
@@ -89,18 +97,22 @@
 .bestplatform .dashboard::before {
     content: "";
     position: absolute;
-    width: 24vw;
+    width: 1211.77px;
+    transform: rotate(-158deg);
+    overflow: hidden !important;
     height: 89vh;
-    bottom: -14%;
-    left: 80%;
-    background-color: #FF6057;
+    top: 6%;
+    left: 65%;
+    background-image: linear-gradient(to bottom, rgba(255, 96, 87, 100%), rgba(128, 128, 128, 100%));
     z-index: -1;
-    border-radius: 515px 0px 0px 515px;
+    border-radius: 191px;
 
 }
 
 .bestplatform .text {
     align-items: center;
+    width: 60%;
+    margin: auto;
 }
 
 .bestplatform .text h1 {
@@ -114,8 +126,10 @@
     content: "";
     position: absolute;
     top: -10px;
-    width: 90px;
+    width: 79px;
     border: solid 2px var(--main-color);
+    border-radius: 10px;
+
 }
 
 .bestplatform .text p {

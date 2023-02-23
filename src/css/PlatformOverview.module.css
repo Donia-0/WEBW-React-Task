@@ -63,3 +63,7 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.swiper_slide span {
+    background-color: red !important;
+}

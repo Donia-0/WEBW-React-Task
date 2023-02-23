@@ -8,8 +8,8 @@ const Footer = () => {
         <div className={style.footer}>
             <div className={style.footer_elements}>
                 <div className="row" style={{ margin: "0" }}>
-                    <div className="col-lg-4 col-md-4 col-sm-6">
-                        <div className={style.study}>
+                    <div className="col-lg-4 col-md-5 col-sm-12">
+                        <div className={style.study} >
                             {/* ---------------call footer elements------------- */}
                             <FooterElements
                                 Header="Study"
@@ -17,16 +17,24 @@ const Footer = () => {
                             />
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-4 col-sm-6">
+                    <div className="col-lg-3 col-md-5 col-sm-12">
                         <div className={style.services}>
                             {/* ---------------call footer elements------------- */}
                             <FooterElements
                                 Header="Nos services"
-                                Text="Avis clients Mentions légales Plan du site Blog d’Idéematic Le dictionnaire du digital ‹ Notre boutique /›"
+                            // Text="Avis clients Mentions légales Plan du site Blog d’Idéematic Le dictionnaire du digital ‹ Notre boutique /›"
                             />
+                            <ul>
+                                <li>Avis clients</li>
+                                <li>Mentions légales</li>
+                                <li>Plan du site</li>
+                                <li>Blog d’Idéematic</li>
+                                <li>Le dictionnaire du digital</li>
+                                <li>‹ Notre boutique /›</li>
+                            </ul>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-4 col-sm-6">
+                    <div className="col-lg-5 col-md-4 col-sm-12">
                         <div className={style.signup}>
                             {/* ---------------call footer elements------------- */}
                             <FooterElements
@@ -40,7 +48,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 

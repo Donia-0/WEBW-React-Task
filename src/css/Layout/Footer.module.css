@@ -1,18 +1,54 @@
 /* Responsive  */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1272px) {
     .footer {
-        height: 65vh !important;
-    }
-
-    .footer .signup {
-        margin-top: 15% !important;
+        height: 70vh !important;
     }
 }
 
-@media screen and (max-width: 576px) {
-    .footer {
-        height: 85vh !important;
+@media screen and (max-width: 992px) {
+    .footer .signup {
+        margin-top: 5% !important;
+        margin-right: 15px !important;
     }
+
+    .footer .signup input {
+        width: 325px !important;
+    }
+
+    .footer .signup button {
+        margin-left: -36px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        height: 120vh !important;
+    }
+
+    .footer .signup {
+        top: 100% !important;
+    }
+
+    .footer .services ul {
+        right: 10% !important;
+    }
+
+}
+
+@media screen and (max-width: 421px) {
+    .footer .footer_elements {
+        width: 80% !important;
+    }
+
+    .footer .signup input {
+        width: 250px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 576px) {
+
 
     .footer .signup {
         margin-top: 5% !important;
@@ -40,25 +76,37 @@
 /* ///////////////////////////////////////// */
 .footer {
     background-color: var(--second-color);
-    height: 279px;
+    height: 50vh;
     color: #FFFFFF;
     bottom: 0;
 
 }
 
 .footer .footer_elements {
-    width: 80%;
+    width: 60%;
     margin: auto;
 
 }
+
 
 .footer .footer_elements .study {
     position: relative;
     top: 30%;
 }
 
-.footer .footer_elements .services,
-.signup {
+.footer .footer_elements .services {
+    position: relative;
+    top: 43%;
+}
+
+.footer .footer_elements .services ul {
+    list-style-type: none !important;
+    position: relative;
+    right: 17%;
+
+}
+
+.footer .footer_elements .signup {
     position: relative;
     top: 45%;
 }
@@ -97,11 +145,14 @@ button {
 }
 
 .footer input {
-    /* width: 479px; */
+    width: 479px;
+    /* height: 50px; */
+    /* width: 100%; */
 }
 
 .footer button {
     width: 205px;
+    /* height: 50px; */
     margin-left: -43%;
     border: none;
     background-color: var(--main-color);

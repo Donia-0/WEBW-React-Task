@@ -12,8 +12,9 @@ const RBestPlatform = () => {
                 <div className="row" style={{ margin: 0 }}>
                     <div className="col-lg-6 col-md-12 col-sm-12">
                         <div className={style.text}>
-                            <h1>The best business solution for you</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis repudiandae laudantium minima, fugit assumenda, deserunt necessitatibus quia, autem vero error eum. Ipsa quos possimus libero fugit, quo sequi ex deleniti.</p>
+                            <h1>Best Platform for the Technological Era</h1>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                                Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet</p>
                             <span>Learn About Our Success <div className={style.icon}> <FontAwesomeIcon icon={faRightLong} /></div></span>
                         </div>
                     </div>

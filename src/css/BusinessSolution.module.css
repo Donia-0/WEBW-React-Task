@@ -58,11 +58,11 @@
 
 /*--------------left side----------------------- */
 .business_sol {
-    width: 85%;
+    width: 65%;
     margin: auto;
     position: relative;
     top: 40px;
-    margin-bottom: 150px;
+    margin-bottom: 400px;
 }
 
 .business_sol .text h1 {
@@ -76,8 +76,9 @@
     content: "";
     position: absolute;
     top: -10px;
-    width: 90px;
+    width: 79px;
     border: solid 2px var(--main-color);
+    border-radius: 10px;
 }
 
 .business_sol .text p {
@@ -105,11 +106,14 @@
 }
 
 .icons .icon_container {
-    width: 20%;
+    width: 23%;
+    height: 50px;
     border-radius: 50%;
     padding: 15px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
 }
 
 .icons .icon {
@@ -135,6 +139,7 @@
     content: "";
     position: absolute;
     margin-top: -10px;
-    width: 90px;
+    width: 79px;
     border: solid 2px var(--main-color);
+    border-radius: 10px;
 }
